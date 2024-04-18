@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Instagram Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="container-fluid bg-warning navbar navbar-expand-lg bg-body-dark bg-body-dark p-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">
+                <span class="text-dark fs-5 fw-bold"><i class="fa-brands fa-instagram p-3"></i>Instagram</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div>
+                <div class="dropdown">
+                    <button type="button" class="btn btn-warning">Create new post!</button>
+                    <button class="btn btn-dark" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-gear"></i>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div>
+        <ul class="nav d-flex justify-content-center p-1">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-table-cells"></i> Imagenes
+                    en Celda </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-regular fa-image"></i> Imagenes en Columna </a>
+            </li>
+        </ul>
+    </div>
+
+    <section class="container-fluid d-flex justify-content-center">
+
+
+        <div class="row mx-auto my-5 servicio-fila">
+            <div class="col-lg-3 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+                <div>
+                    <div class="card" style="width: 18rem;">
+                        <span class="text-start"><strong>My crazy dog Macu</strong></span>
+                        <img src="https://previews.123rf.com/images/stockee/stockee2308/stockee230812548/210624382-en-esta-pintura-digital-de-32k-uhd-se-representa-un-bulldog-franc%C3%A9s-en-blanco-y-negro-el-retrato.jpg"
+                            class="card-img-top img-fluid" alt="Bulldog-Futuro">
+                        <span class="text-start"><strong><i class="fa-regular fa-heart"></i> <i
+                                    class="fa-regular fa-comment"></i> <i class="fa-regular fa-paper-plane"></i> 205
+                                likes</strong></span>
+                        <div class="card-body">
+                            <p class="card-text text-start p-1 m-1"> Lorem ipsum dolor sit amet, consectetur adipisicing
+                                elit. Blanditiis, ullam!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mx-auto my-5 servicio-fila">
+                <div class="col-lg-3 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+                    <div>
+                        <div class="card" style="width: 18rem;">
+                            <span class="text-start"><strong>My crazy dog Macu</strong></span>
+                            <img src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs2/316456852/original/5b77df4f53d2a7e002d977669626ba70d647d4ef/create-amazing-food-photography-from-your-recipe-luxury-style-any-cuisine.png"
+                                class="card-img-top img-fluid" alt="Bulldog-Futuro">
+                            <span class="text-start"><strong><i class="fa-regular fa-heart"></i> <i
+                                        class="fa-regular fa-comment"></i> <i class="fa-regular fa-paper-plane"></i> 205
+                                    likes</strong></span>
+                            <div class="card-body">
+                                <p class="card-text text-start p-1 m-1"> Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Blanditiis, ullam!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mx-auto my-5 servicio-fila">
+                    <div class="col-lg-3 col-md-12 col-sm-12 d-flex my-5 icono-wraprap">
+                        <div>
+                            <div class="card" style="width: 18rem;">
+                                <span class="text-start"><strong>My crazy dog Macu</strong></span>
+                                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3411bb89-fdb4-4556-b670-489a7746196b/dg262y2-3ed0c0c8-c31e-4c8e-869c-81a9a257431e.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzM0MTFiYjg5LWZkYjQtNDU1Ni1iNjcwLTQ4OWE3NzQ2MTk2YlwvZGcyNjJ5Mi0zZWQwYzBjOC1jMzFlLTRjOGUtODY5Yy04MWE5YTI1NzQzMWUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.K6atGRjlKSYWfwb2f3TmI-0WUllFXh52kGKbLtthl7k"
+                                    class="card-img-top img-fluid" alt="Bulldog-Futuro">
+                                <span class="text-start"><strong><i class="fa-regular fa-heart"></i> <i
+                                            class="fa-regular fa-comment"></i> <i class="fa-regular fa-paper-plane"></i>
+                                        205 likes</strong></span>
+                                <div class="card-body">
+                                    <p class="card-text text-start p-1 m-1"> Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Blanditiis, ullam!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+    </section>
+
+    <section id="seccion-contacto" class="border-bottom border-secondary border-2">
+        <div id="seccion-contactos">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#ffc600" fill-opacity="1"
+                    d="M0,160L40,170.7C80,181,160,203,240,192C320,181,400,139,480,117.3C560,96,640,96,720,117.3C800,139,880,181,960,181.3C1040,181,1120,139,1200,138.7C1280,139,1360,181,1400,202.7L1440,224L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+                </path>
+            </svg>
+        </div>
+    </section>
+
+    <footer class="w-100 d-flex align-items-center justify-content-center flex-wrap" target="blank">
+        <div>
+            <p class="fs-5 px-3 pt-3">Instagram &copy; Todos los Derechos Reservados 2024</p>
+        </div>
+        <div id="iconos">
+            <a href="https://es-es.facebook.com/"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.twitter.com/"><i class="bi bi-twitter"></i></a>
+        </div>
+    </footer>
+
+
+    <script src="https://kit.fontawesome.com/e4dbd8180a.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

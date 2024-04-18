@@ -1,0 +1,15 @@
+footer {
+    background: #FFC600;
+    min-height: 100px;
+}
+
+footer p {
+    color: black;
+    text-align: center;
+}
+
+#iconos i {
+    font-size: 28px;
+    padding: 0 8px;
+    color: black;
+}
